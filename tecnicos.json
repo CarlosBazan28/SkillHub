@@ -1,0 +1,282 @@
+{
+    "informatica": [
+        { 
+            "id": 1,
+            "nombre": "Juan Pérez", 
+            "imagen": "img/informatico_hombre1.jpg",
+            "servicios": ["Reparación de computadoras", "Instalación de software"],
+            "precios": ["$50/hora", "$30/servicio"],
+            "valoracion": "3",
+            "ubicacion": "Los Santos",
+            "telefono": "67584839",
+            "correo": "juan@example.com"
+        },
+        { 
+            "id": 2,
+            "nombre": "María López",
+            "imagen": "img/informatico_mujer.jpg",
+            "servicios": ["Desarrollo web", "Soporte técnico"],
+            "precios": ["$40/hora", "$25/servicio"],
+            "valoracion": "4.0",
+            "ubicacion": "Chitré",
+            "telefono": "66776545",
+            "correo": "maria@example.com"
+        },
+        { 
+            "id": 3,
+            "nombre": "Carlos Sánchez",
+            "imagen": "img/informatico_hombre2.jpg",
+            "servicios": ["Mantenimiento de Computadoras", "Instalacion de Computadoras"],
+            "precios": ["$30/mantenimiento", "$100/proyecto"],
+            "valoracion": "4.7",
+            "ubicacion": "Chitré",
+            "telefono": "65654533",
+            "correo": "carlos@example.com"
+        }
+    ],
+    "jardineria": [
+        { 
+            "id": 4,
+            "nombre": "Roberto Gonzalez",
+            "imagen": "img/jardinero_hombre1.jpg",
+            "servicios": ["Corte de césped", "Diseño de jardines"],
+            "precios": ["$20/hora", "$100/diseño de jardín"],
+            "valoracion": "4.7",
+            "ubicacion": "Ciudad C",
+            "telefono": "111222333",
+            "correo": "carlos@example.com"
+        },
+        { 
+            "id": 5,
+            "nombre": "Luisa Castro",
+            "imagen": "img/jardinero_mujer1.jpg",
+            "servicios": ["Corte de césped", "Diseño de jardines"],
+            "precios": ["$25/hora", "$80/Diseño de jardín"],
+            "valoracion": "3.5",
+            "ubicacion": "Ciudad C",
+            "telefono": "111222333",
+            "correo": "carlos@example.com"
+        },
+        { 
+            "id": 6,
+            "nombre": "Carlos Sánchez",
+            "imagen": "img/jardinero_hombre2.jpg",
+            "servicios": ["Corte de césped", "Diseño de jardines"],
+            "precios": ["$25/hora", "$150/diseño de jardín"],
+            "valoracion": "4.7",
+            "ubicacion": "Ciudad C",
+            "telefono": "111222333",
+            "correo": "carlos@example.com"
+        }
+    ],
+    "fontaneria": [
+        { 
+            "id": 7,
+            "nombre": "Mario Bernal",
+            "imagen": "img/Fontanero1.avif",
+            "servicios": ["Reparación de tuberías", "Instalación de grifos"],
+            "precios": ["$10/hora"],
+            "valoracion": "4",
+            "ubicacion": "Parita",
+            "telefono": "67889087",
+            "correo": "mario@gmail.com"
+        },
+        { 
+            "id": 8,
+            "nombre": "Ronaldo Moreno",
+            "imagen": "img/fontanero2.avif",
+            "servicios": ["Reparación de tuberías", "Instalación de grifos"],
+            "precios": ["$20/hora"],
+            "valoracion": "3",
+            "ubicacion": "Pesé",
+            "telefono": "65675432",
+            "correo": "ronaldo@example.com"
+        },
+        { 
+            "id": 9,
+            "nombre": "Elvis Sandoval",
+            "imagen": "img/fontanero3.jpg",
+            "servicios": ["Reparación de tuberías", "Instalación de grifos"],
+            "precios": ["$10/hora"],
+            "valoracion": "4",
+            "ubicacion": "Chitré",
+            "telefono": "67889900",
+            "correo": "elvis@example.com"
+        }
+    ],
+    "electricidad": [
+        { 
+            "id": 10,
+            "nombre": "Alejandro Herrera ",
+            "imagen": "img/electricista1.avif",
+            "servicios": ["Reparaciónes electricas"],
+            "precios": ["$30/hora"],
+            "valoracion": "3",
+            "ubicacion": "Chitré",
+            "telefono": "65443357",
+            "correo": "pedro@example.com"
+        },
+        { 
+            "id": 11,
+            "nombre": "Fernando Gutiérrez",
+            "imagen": "img/electricista2.avif",
+            "servicios": ["Reparaciónes electricas"],
+            "precios": ["$20/hora"],
+            "valoracion": "3",
+            "ubicacion": "Los Santos",
+            "telefono": "66557789",
+            "correo": "pedro@example.com"
+        },
+        { 
+            "id": 12,
+            "nombre": "Jorge Díaz",
+            "imagen": "img/electricista3.jpg",
+            "servicios": ["Reparaciónes electricas"],
+            "precios": ["$60/hora"],
+            "valoracion": "5",
+            "ubicacion": "Las Tablas",
+            "telefono": "62332213",
+            "correo": "pedro@example.com"
+        }
+    ],
+    "electronica": [
+        { 
+            "id": 13,
+            "nombre": "Francisco Moreno",
+            "imagen": "img/electrodomestico1.avif",
+            "servicios": ["Reparación de electrodomesticos"],
+            "precios": ["$80/servicio"],
+            "valoracion": "4.8",
+            "ubicacion": "Chitre",
+            "telefono": "65998847",
+            "correo": "francisco@example.com"
+        },
+        { 
+            "id": 14,
+            "nombre": "Miguel Fernández",
+            "imagen": "img/electrodomestico2.jpg",
+            "servicios": ["Reparación de electrodomesticos"],
+            "precios": ["$30/servicio"],
+            "valoracion": "3.8",
+            "ubicacion": "Chitré",
+            "telefono": "63588874",
+            "correo": "miguel@example.com"
+        },
+        { 
+            "id": 15,
+            "nombre": "Alberto Ramírez",
+            "imagen": "img/electrodomestico3.jpg",
+            "servicios": ["Reparación de electrodomesticos"],
+            "precios": ["$50/servicio"],
+            "valoracion": "4.8",
+            "ubicacion": "Chitré",
+            "telefono": "69963654",
+            "correo": "alberto@example.com"
+        }
+    ],
+    "construccion": [
+        { 
+            "id": 16,
+            "nombre": "Sergio Cruz",
+            "imagen": "img/constructor1.avif",
+            "servicios": ["Albañil"],
+            "precios": ["$60/hora"],
+            "valoracion": "4.8",
+            "ubicacion": "Las Tablas",
+            "telefono": "65414253",
+            "correo": "sergio@example.com"
+        },
+        { 
+            "id": 17,
+            "nombre": "Javier Navarro",
+            "imagen": "img/constructor2.jpg",
+            "servicios": ["Ayudante General"],
+            "precios": ["$20/hora"],
+            "valoracion": "3.8",
+            "ubicacion": "Chitré",
+            "telefono": "69874523",
+            "correo": "javier@example.com"
+        },
+        { 
+            "id": 18,
+            "nombre": "Andrés Silva",
+            "imagen": "img/constructor3.jpg",
+            "servicios": ["Supervisor de obra"],
+            "precios": ["$80/hora"],
+            "valoracion": "5",
+            "ubicacion": "Los Santos",
+            "telefono": "62589874",
+            "correo": "andres@example.com"
+        }
+    ],
+    "domestico": [
+        { 
+            "id": 19,
+            "nombre": "Isabel Mendoza",
+            "imagen": "img/domestico1.jpg",
+            "servicios": ["Servicios Domesticos"],
+            "precios": ["$70/día"],
+            "valoracion": "4.8",
+            "ubicacion": "Chitré",
+            "telefono": "69874128",
+            "correo": "isabel@example.com"
+        },
+        { 
+            "id": 20,
+            "nombre": "Beatriz Ramírez",
+            "imagen": "img/domestico2.jpg",
+            "servicios": ["Servicios Domesticos"],
+            "precios": ["$20/día"],
+            "valoracion": "4.8",
+            "ubicacion": "Chitré",
+            "telefono": "635",
+            "correo": "785@example.com"
+        },
+        { 
+            "id": 21,
+            "nombre": "Sofía Herrera",
+            "imagen": "img/domestico3.jpg",
+            "servicios": ["Servicios Domesticos"],
+            "precios": ["$40/día"],
+            "valoracion": "3",
+            "ubicacion": "Chitré",
+            "telefono": "69874521",
+            "correo": "sofia@example.com"
+        }
+    ],
+    "mecanica": [
+        { 
+            "id": 22,
+            "nombre": "Manuel González",
+            "imagen": "img/mecanico1.avif",
+            "servicios": ["Mecanica General"],
+            "precios": ["$30/hora"],
+            "valoracion": "4.8",
+            "ubicacion": "Chitré",
+            "telefono": "63558741",
+            "correo": "manuel@example.com"
+        },
+        { 
+            "id": 23,
+            "nombre": "Rafael Castillo",
+            "imagen": "img/mecanico2.avif",
+            "servicios": ["Mecanica General"],
+            "precios": ["$60/hora", "$80/servicio"],
+            "valoracion": "3.8",
+            "ubicacion": "Chitré",
+            "telefono": "66985541",
+            "correo": "rafael@example.com"
+        },
+        { 
+            "id": 24,
+            "nombre": "Antonio Ortiz",
+            "imagen": "img/mecanico3.jpg",
+            "servicios": ["Mecanica General"],
+            "precios": ["$30/hora"],
+            "valoracion": "4.8",
+            "ubicacion": "Chitré",
+            "telefono": "65245636",
+            "correo": "antonio@example.com"
+        }
+    ]
+}

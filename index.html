@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="estilos.css" />
+  <title>SkillHub - Categorías</title>
+  <link rel="icon" type="image/x-icon" href="img/favicon-32x32.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="container">
+    <img class="logo" src="img/logo2.png" alt="Logo SkillHub" />
+    <nav class="nav">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="Categorias-1.html">Categorías</a></li>
+        <li><a href="sobreNosotros.html">Sobre Nosotros</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+    <div class="buttons">
+      <button class="button1"><strong>Registrarse</strong></button>
+      <button class="button2">Iniciar Sesión</button>
+    </div>
+  </header>
+
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Bienvenido a SkillHub</h1>
+        <p>Encuentra al Experto Ideal</p>
+        <div class="hero-buttons">
+          <button class="button1">Buscar Servicios</button>
+          <button class="button2">Ofrecer Servicios</button>
+        </div>
+      </div>
+    </section>
+    <div class="login-form inactive">
+      <form class="loginForm" action="/login" method="POST">
+        <div class="email-container">
+          <label for="email">Correo electronico:</label>
+          <img src="./img/email-icon.png" alt="email icon" />
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="password-container">
+          <label for="password">Contraseña:</label>
+          <img src="./img/password-icon.png" alt="email icon" />
+          <input type="password" id="password" name="password" required />
+        </div>
+        <div class="button-container">
+          <button type="submit">Iniciar Sesión</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="register-form inactive">
+      <form class="registerForm" action="/login" method="POST">
+        <div class="email-container">
+          <label for="email">Correo electronico:</label>
+          <img src="./img/email-icon.png" alt="email icon" />
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="password-container">
+          <label for="password">Contraseña:</label>
+          <img src="./img/password-icon.png" alt="email icon" />
+          <input type="password" id="password" name="password" required />
+        </div>
+        <div class="confirm-password-container">
+          <label for="password">Confirmar contraseña:</label>
+          <img src="./img/password-icon.png" alt="email icon" />
+          <input type="password" id="password" name="password" required />
+        </div>
+        <div class="button-container">
+          <button type="submit">Registrar</button>
+        </div>
+      </form>
+    </div>
+    <section class="categories">
+      <div class="categories-left">
+        <h2>Categorías destacadas</h2>
+        <p>
+          Desde plomería y electricidad hasta jardinería y reparación de
+          computadoras, estamos aquí para ayudarte a resolver cualquier desafío
+          con rapidez y eficiencia. ¡Encuentra el servicio perfecto y mejora tu
+          hogar u oficina hoy mismo!
+        </p>
+        <button class="button-more-info">Más categorías</button>
+      </div>
+      <div class="categories-right">
+        <div class="card">
+          <img src="img/icono1.png" alt="Icono Categoría 1" />
+          <h3>Plomeria</h3>
+          <p>
+            Descripción breve de la categoría 1. Aquí puedes agregar más
+            información sobre lo que ofrece esta categoría.
+          </p>
+          <a href="#">Buscar técnico ---></a>
+        </div>
+        <div class="card">
+          <img src="img/icono2.png" alt="Icono Categoría 2" />
+          <h3>Electricidad</h3>
+          <p>
+            Descripción breve de la categoría 2. Aquí puedes agregar más
+            información sobre lo que ofrece esta categoría.
+          </p>
+          <a href="#">Buscar técnico ---></a>
+        </div>
+        <div class="card">
+          <img src="img/icono3.png" alt="Icono Categoría 3" />
+          <h3>jardinería</h3>
+          <p>
+            Descripción breve de la categoría 3. Aquí puedes agregar más
+            información sobre lo que ofrece esta categoría.
+          </p>
+          <a href="#">Buscar técnico ---></a>
+        </div>
+        <div class="card">
+          <img src="img/icono4.png" alt="Icono Categoría 4" />
+          <h3>Computación</h3>
+          <p>
+            Descripción breve de la categoría 4. Aquí puedes agregar más
+            información sobre lo que ofrece esta categoría.
+          </p>
+          <a href="#">Buscar técnico ---></a>
+        </div>
+      </div>
+    </section>
+    <section class="testimonials">
+      <h2>Testimonios</h2>
+      <p>
+        Lee lo que los otros clientes tienen que decir sobre su experiencias con
+        los servicios de SkillHub.
+      </p>
+      <p>
+        Nuestros testimonios te brindan una vision real de como podémos ayudarte
+        a resolver tus nececidades tecnicas
+      </p>
+      <div class="testimonials-slider">
+        <button class="slider-btn prev-btn">&lt;</button>
+        <div class="testimonial-card">
+          <img src="img/iconoTestimonios.png" alt="Icono Testimonio 1" />
+          <p>
+            "¡increible atencion al cliente!" Solucionaron el problema de mi
+            computadora en minutos
+          </p>
+          <h3>Adam Smith</h3>
+        </div>
+        <div class="testimonial-card">
+          <img src="img/iconoTestimonios.png" alt="Icono Testimonio 2" />
+          <p>
+            "Con SkillHub pude encontrar a alguien que me ayudara a resolver el
+            problema de electricidad de mi casa "
+          </p>
+          <h3>Clara Martin</h3>
+        </div>
+        <button class="slider-btn next-btn">&gt;</button>
+      </div>
+    </section>
+    <section class="howtouse">
+      <div class="howtouse-titulo">
+        <h2>¿Cómo funciona?</h2>
+        <p>
+          En SkillHub, simplificamos el proceso para que obtengas los servicios
+          técnicos que nesecitas de manera más rápida y sin complicaciones.
+          ¡Únete a nuestra comunidad hoy mismos y resuelve tus problemas en
+          minutos !
+        </p>
+      </div>
+      <div class="howtouse-cards-container">
+        <div class="howtouse-card">
+          <img src="img/search-engine-optimization.png" alt="Explora" />
+          <div class="card-content">
+            <h4>1.Explora Categorias:</h4>
+            <p>
+              "Descubre la amplia variedad de servicios técnicos en nuestras
+              categorias. Encuentra exactamente lo que nesecitas con solo unos
+              pocos pasos"
+            </p>
+          </div>
+        </div>
+        <div class="howtouse-card">
+          <img src="img/empresario.png" alt="Profesional" />
+          <div class="card-content">
+            <h4>2. Elige tu Profesional:</h4>
+            <p>
+              "Seleciona al experto perfecto para tu tarea . Explora perfiles
+              detallados y elige el profesional que mejor se adapte a tus
+              nesecidades "
+            </p>
+          </div>
+        </div>
+        <div class="howtouse-card">
+          <img src="img/calendario.png" alt="Coordinar" />
+          <div class="card-content">
+            <h4>3.Coordina el Servicio:</h4>
+            <p>
+              "Programa tu cita de manera rapida y facil. Etablece la fecha y
+              hora que te convenga para recibir el servico en tu hogar u
+              oficina. "
+            </p>
+          </div>
+        </div>
+        <div class="howtouse-card">
+          <img src="img/clasificacion.png" alt="Clasifica" />
+          <div class="card-content">
+            <h4>4.Califica tu Experiencia:</h4>
+            <p>
+              "Despues de recibir el servicio, comparte tu opinion. Tu opinion
+              nos ayuda a que otro usuarios puedan tomar decisiones mas facieles
+              en el futuro"
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-part1">
+        <img class="logo-footer" src="img/logo2.png" alt="Logo SkillHub" />
+        <nav class="nav-footer">
+          <ul>
+            <li>Inicio</li>
+            <li>Categorías</li>
+            <li>Sobre Nosotros</li>
+            <li>Contacto</li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer-part2">
+        <p>
+          Copyright © 2024 <strong>Website.</strong> Todos los derechos
+          reservados.
+        </p>
+        <div class="logos-footer">
+          <img src="img/instagram-icon.png" alt="logo instagram" />
+          <img src="img/facebook-icon.png" alt="logo facebook" />
+          <img src="img/x-icon.png" alt="logo X" />
+        </div>
+      </div>
+    </footer>
+    <script src="./main.js"></script>
+  </body>
+</html>

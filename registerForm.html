@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilos.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form class="registerForm" action="/login" method="POST">
+      <div class="email-container">
+        <label for="email">Correo electronico:</label>
+        <img src="./img/email-icon.png" alt="email icon" />
+        <input type="email" id="email" name="email" required />
+      </div>
+      <div class="password-container">
+        <label for="password">Contraseña:</label>
+        <img src="./img/password-icon.png" alt="email icon" />
+        <input type="password" id="password" name="password" required />
+      </div>
+      <div class="confirm-password-container">
+        <label for="password">Confirmar contraseña:</label>
+        <img src="./img/password-icon.png" alt="email icon" />
+        <input type="password" id="password" name="password" required />
+      </div>
+      <div class="button-container">
+        <button type="submit">Registrar</button>
+      </div>
+    </form>
+  </body>
+</html>

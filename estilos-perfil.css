@@ -1,0 +1,222 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.inactive {
+    display: none;
+} 
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    background-color: #1f192f;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 10px 30px;
+    gap: 20px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.nav ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.nav li a{
+    color: #f0f7da;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
+}
+
+.buttons button {
+    padding: 8px 20px;
+    font-family: 'Inter', sans-serif;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+.buttons .button1 {
+    background-color: white;
+    color: #1f192f;
+    border-color: #f0f7da;
+}
+
+.buttons .button2 {
+    background-color: #2d6073;
+    color: white;
+    border-color: #65b8a6;
+}
+
+.buttons button:hover {
+    opacity: 0.8;
+}
+
+/*estilos para la seccion de la foto*/
+
+p{
+    color: #2d6073;
+    margin-top: 20px;
+    font-style: none;
+    font-size: 20px;
+}
+.button-editar{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 100px;
+    padding: 4px;
+}
+
+.editar-img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.profile-container{
+    display: grid;
+    grid-template-columns: 1fr 10px 1fr;
+    align-items: center;
+}
+
+.left-section1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left-section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 100px;
+   
+}
+
+.profile-item{
+   display: grid;
+   grid-template-columns: 100px 300px 100px;
+   width: 80%;
+   margin-bottom: 15px;
+}
+
+.left-section2 span{
+    color: #2d6073;
+}
+
+.photo-container{
+    margin-top: 20PX;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 200px;
+    border:  solid #65b8a6;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.photo-profile{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    background-color: #f0f7da;   
+}
+
+.left-section2 button {
+    right: 0;
+    width: 30px;
+    border-color: #2d6073;
+    border-radius: 20%;
+    height: 30px;
+    padding: 4px;
+}
+
+.divider{
+    width: 1px;
+    background: #333; 
+    height: 100%;
+    margin: 20px;
+    opacity: 70%;
+}
+
+.right-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Estilos para el footer*/
+.footer-part1{
+    background-color: #f0f7da;
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-footer{
+    width: 100px;
+}
+
+.nav-footer{
+    right: 0;
+    display: flex;
+}
+
+.nav-footer ul {
+    display: flex;
+    list-style-type: none;
+
+}
+
+.nav-footer li {
+    color: #1f192f;
+    cursor: pointer;
+    margin-right: 25px;
+    text-decoration: none;
+}
+
+.footer-part2{
+    background-color: #2d6073;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-part2 p{
+    color: #f0f7da;
+    margin-left: 100px;
+}
+
+.logos-footer{
+    margin-right: 40px;
+}
+
+.logos-footer img {
+    width: 60px;
+}
+
+
+  
